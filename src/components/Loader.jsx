@@ -1,5 +1,5 @@
-import React from 'react'
-import styled from 'styled-components';
+import React from "react";
+import styled from "styled-components";
 
 const LoaderStyle = styled.div`
     margin: 0;
@@ -9,7 +9,6 @@ const LoaderStyle = styled.div`
     vertical-align: middle;
     position: relative;
     display: flex;
-    background: white;
     padding: 150px;
 `;
 
@@ -43,7 +42,7 @@ const SpanStyle = styled.span`
         0% {
             transform: translateX(0);
         }
-    
+
         100% {
             transform: translateX(110px);
         }
@@ -89,5 +88,5 @@ export default function Loader() {
             <SpanStyle />
             <SpanStyle />
         </LoaderStyle>
-    )
+    );
 }

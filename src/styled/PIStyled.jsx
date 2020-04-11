@@ -1,14 +1,15 @@
 import React from "react";
 import styled from "styled-components";
 
-const StyledP = styled.p`
-    color: #5d5b5b;
+const StyledPI = styled.p`
+    color: #757575;
     font-weight: 300;
     font-size: 0.75em;
     line-height: 1.8em;
     font-family: "Poppins", sans-serif;
+    font-style: italic;
 `;
 
-const PStyled = ({ children }) => <StyledP>{children}</StyledP>;
+const PIStyled = ({ children }) => <StyledPI>{children}</StyledPI>;
 
-export default PStyled;
+export default PIStyled;

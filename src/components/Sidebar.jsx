@@ -1,18 +1,15 @@
-import React from 'react';
-import styled from 'styled-components';
+import React from "react";
+import styled from "styled-components";
 
 const SidebarStyle = styled.div`
-    background: linear-gradient(35deg, #CCFFFF, #FFCCCC);
+    position: fixed;
+    width: 150px;
 `;
 
 const Sidebar = ({ children }) => (
     <SidebarStyle>
-        
-        <div className="sidebar-container">
-            {children}
-        </div>
+        <div className="sidebar-container">{children}</div>
     </SidebarStyle>
 );
-
 
 export default Sidebar;
